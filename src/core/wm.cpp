@@ -34,9 +34,6 @@ void wayfire_exit::init()
         idle_shutdown(nullptr);
         return true;
     };
-
-    output->add_key(wf::create_option_string<wf::keybinding_t>(
-        "<ctrl> <alt> KEY_BACKSPACE"), &key);
 }
 
 void wayfire_exit::fini()
