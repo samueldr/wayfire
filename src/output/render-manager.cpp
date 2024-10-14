@@ -355,7 +355,7 @@ struct swapchain_damage_manager_t
 
         if (!wlr_output_test_state(output, &next_frame->state))
         {
-            LOGE("Output test failed!");
+            LOGD("Output test failed!");
             return;
         }
 
